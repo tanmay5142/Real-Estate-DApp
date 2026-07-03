@@ -1,0 +1,1 @@
+Run cd web3 && npx hardhat compile to verify, then npm run deploy (with real key in .env) to deploy.
