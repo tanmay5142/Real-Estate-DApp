@@ -36,7 +36,6 @@ export const config = getDefaultConfig({
   appName: 'Real Estate DApp',
   projectId: 'real-estate-dapp',
   chains: [targetChain, localChain, sepolia, mainnet],
-  initialChain: targetChain,
   transports: {
     [mainnet.id]: http(),
     [sepolia.id]: http(process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL),
